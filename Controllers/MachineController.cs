@@ -6,11 +6,11 @@ using System.Linq;
 
 namespace Factory.Controllers
 {
-  public class CategoriesController : Controller
+  public class MachinesController : Controller
   {
     private readonly FactoryContext _db;
 
-    public CategoriesController(FactoryContext db)
+    public MachinesController(FactoryContext db)
     {
       _db = db;
     }
